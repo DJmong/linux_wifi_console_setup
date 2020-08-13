@@ -2,13 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #define false 0
-static int count(char n[]){
-	int i;
-	while(1){
-		i++;
-		if(n[i]=='\0') return i;
-	}
-}
 
 void main(){
 	_Bool wpa_true;
